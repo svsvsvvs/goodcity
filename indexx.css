@@ -1,0 +1,189 @@
+@font-face {
+  font-family: "SANTELLO";
+  src: url("./SANTELLO.ttf");
+  font-weight: regular;
+}
+
+@font-face {
+  font-family: "tilda";
+  src: url("./tilda-sans_black.ttf");
+  font-weight: bold;
+}
+
+header{
+background-color: #F3DB82;
+}
+
+.container{
+  width: 100%;
+  
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-head {
+  font-family: "tilda";
+  font-weight: 700;
+  font-size: 28px;
+}
+
+.nav-head ul {
+  list-style-type: none; /* убираем точки */
+  margin: 0;
+  padding: 0;
+}
+
+.nav-head li {
+  display: inline-block; /* элементы в строку */
+  margin-right: 20px; /* расстояние между ними */
+}
+
+.nav-head a {
+  text-decoration: none; /* убираем подчёркивание */
+  color: black; /* цвет текста */
+}
+
+.nav-head address {
+  font-size: 18px;
+}
+
+.nav-head p {
+  font-family: "tilda";
+}
+p {
+  font-family: "SANTELLO";
+  font-weight: 400;
+  font-size: 28px;
+  text-align: justify;
+  color: #000;
+}
+
+h1,
+h2,
+h3,
+a,
+address {
+  font-family: "tilda";
+}
+
+.hero h2 {
+  margin-bottom: 0%;
+  font-weight: 900;
+  font-size: 64px;
+}
+
+.hero p {
+  margin-top: 0%;
+  font-weight: 400;
+  font-size: 64px;
+}
+
+.feature h3 {
+  font-weight: 900;
+  font-size: 26px;
+  text-align: center;
+  color: #000;
+}
+
+.feature p {
+  font-weight: 400;
+  font-size: 26px;
+  text-align: center;
+  color: #000;
+}
+
+/* кнопку отдельно разобрать*/
+.hero a {
+  display: inline-block;
+  border-radius: 24px;
+  padding: 25px 33px;
+  background-color: #F3DB82;
+  font-family: "tilda";
+  font-weight: 700px;
+  font-size: 24px;
+  text-align: center;
+  border: 1px transparent;
+  text-decoration: none;
+  color: #000;
+}
+
+h2 {
+  font-family: "tilda";
+  font-weight: 700;
+  font-size: 48px;
+  text-align: justify;
+  color: #000;
+}
+
+.examp_works p {
+  font-family: "SANTELLO";
+  font-weight: 400;
+  font-size: 20px;
+  text-align: justify;
+  color: #000;
+}
+
+.imp h3 {
+  font-weight: 700;
+  font-size: 36px;
+  text-align: justify;
+}
+
+.contact {
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+/* .contact h2 {
+  font-size: 1.8em;
+  font-weight: bold;
+} */
+
+.contact p {
+  font-family: "SANTELLO";
+  margin-bottom: 20px;
+}
+
+/* .contact-form {
+  font-family: "SANTELLO";
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+} */
+
+.contact-form input,
+.contact-form textarea {
+  background-color: #d9d9d9; /* светло-серый */
+  border: none;
+  padding: 12px 15px;
+  border-radius: 12px;
+  font-size: 1em;
+  font-family: inherit;
+}
+
+.contact-form textarea {
+  resize: none;
+}
+
+.contact-form a {
+  display: inline-block;
+  font-family: "tilda";
+  background-color: #F3DB82; 
+  border: 1px transparent;
+  padding: 22px 42px;
+  border-radius: 24px;
+  font-size: 30px;
+  font-weight: bold;
+  cursor: pointer;
+  color: #000;
+  text-decoration: none;
+}
+
+.contact-form button:hover {
+  background-color: #e5c85f;
+}
