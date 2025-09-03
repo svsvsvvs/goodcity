@@ -18,18 +18,25 @@ main,
 }
 
 h1{
-  font-size: 16px;
+  font-size: 20px;
 }
 header {
   background-color: #f3db82;
 }
 
 .logo{
-  width: 90px;
+  
   height: auto;
-  padding: 20px;
+  padding: 30px;
+  
 }
 
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  
+}
 
 .container {
   width: 100%;
@@ -212,4 +219,21 @@ h2 {
 
 .contact-form button:hover {
   background-color: #e5c85f;
+}
+
+.group{
+  display: flex;
+  flex-wrap: wrap
+}
+
+.group .tab{
+  width: 400px;
+}
+
+.crit{
+display: flex;
+text-align: start;
+margin-left: 250px;
+list-style-type: none;
+
 }
