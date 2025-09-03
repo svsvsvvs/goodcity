@@ -10,13 +10,29 @@
   font-weight: bold;
 }
 
-header{
-background-color: #F3DB82;
+main,
+.container-hero {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 90px;
 }
 
-.container{
+h1{
+  font-size: 16px;
+}
+header {
+  background-color: #f3db82;
+}
+
+.logo{
+  width: 90px;
+  height: auto;
+  padding: 20px;
+}
+
+
+.container {
   width: 100%;
-  
 }
 
 body {
@@ -24,26 +40,36 @@ body {
   padding: 0;
 }
 
-.nav-head {
-  font-family: "tilda";
-  font-weight: 700;
-  font-size: 28px;
+.nav-head ul{
+  display: flex;
 }
 
-.nav-head ul {
+
+.nav-head .item {
   list-style-type: none; /* убираем точки */
   margin: 0;
   padding: 0;
 }
+.nav-head .item {
+  /* display: inline-block; */
+  display: block;
+  margin-right: 86px;
+  font-family: "tilda";
+  font-weight: 700;
+  font-size: 28px;
+  padding-top: 51px;
+  padding-bottom: 51px;
+}
 
-.nav-head li {
-  display: inline-block; /* элементы в строку */
-  margin-right: 20px; /* расстояние между ними */
+
+.nav-head .item:last-child {
+  margin-right: 0;
 }
 
 .nav-head a {
   text-decoration: none; /* убираем подчёркивание */
   color: black; /* цвет текста */
+  display: block;
 }
 
 .nav-head address {
@@ -100,7 +126,7 @@ address {
   display: inline-block;
   border-radius: 24px;
   padding: 25px 33px;
-  background-color: #F3DB82;
+  background-color: #f3db82;
   font-family: "tilda";
   font-weight: 700px;
   font-size: 24px;
@@ -173,7 +199,7 @@ h2 {
 .contact-form a {
   display: inline-block;
   font-family: "tilda";
-  background-color: #F3DB82; 
+  background-color: #f3db82;
   border: 1px transparent;
   padding: 22px 42px;
   border-radius: 24px;
