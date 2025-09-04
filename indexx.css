@@ -11,7 +11,7 @@
 }
 
 main,
-.container-hero {
+.container-hero{
   max-width: 1440px;
   margin: 0 auto;
   padding: 0 90px;
@@ -19,23 +19,35 @@ main,
 
 h1{
   font-size: 20px;
+  display: block;
+  margin-top: 0%;
 }
-header {
+header,
+footer {
   background-color: #f3db82;
 }
 
-.logo{
+.container-hero{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.logo,
+footer{
   
   height: auto;
   padding: 30px;
   
 }
 
-.container{
+
+.container,
+footer{
   display: flex;
   align-items: center;
   justify-content: space-around;
-  
+  list-style-type: none;
 }
 
 .container {
@@ -151,12 +163,40 @@ h2 {
   color: #000;
 }
 
+.feature:first-child{
+  border-right: 1px solid #000;
+}
+
+.feature{
+  width: 50%;
+  padding: 25px;
+}
+.features{
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon{
+  font-family: "tilda";
+  color: #f3db82;
+  font-size: 96px;
+  margin-right: 5px;
+}
+
+.note,
+.icon{
+  display: flex;
+  align-items: center;
+}
+
+
 .examp_works p {
   font-family: "SANTELLO";
   font-weight: 400;
   font-size: 20px;
   text-align: justify;
   color: #000;
+  width: 350px;
 }
 
 .imp h3 {
@@ -223,17 +263,107 @@ h2 {
 
 .group{
   display: flex;
-  flex-wrap: wrap
+  justify-content: space-between;
+  margin-left: -50px;
+  list-style-type: none;
 }
 
-.group .tab{
-  width: 400px;
+.tab:last-child{
+  padding-right: 30px;
 }
 
-.crit{
-display: flex;
-text-align: start;
-margin-left: 250px;
-list-style-type: none;
-
+.examp_works .tab{
+  width: 300px;
 }
+
+.imp {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 
+}
+
+.imp ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 2rem;
+}
+
+.crit {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-weight: 700;
+  font-size: 1.2rem;
+  flex: 1;
+  min-width: 220px;
+}
+
+.crit img {
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
+}
+
+/* footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f2db7d; /* желтоватый фон */
+  /* padding: 1rem 2rem;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+}
+
+footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer .logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+footer .logo img {
+  width: 40px;
+  height: auto;
+  margin-bottom: 0.2rem;
+}
+
+.nav-head {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  flex: 1;
+  justify-content: center;
+}
+
+.nav-head ul {
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-head a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 700;
+}
+
+.nav-head p {
+  margin: 0 0 0 2rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.nav-head address {
+  margin: 0;
+  font-style: normal;
+  font-size: 0.9rem;
+  line-height: 1.4;
+} */ */
